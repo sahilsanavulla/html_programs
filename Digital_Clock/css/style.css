@@ -1,0 +1,25 @@
+#layout
+{
+  text-align: center;
+  background-color: whitesmoke;
+  
+}
+.timesection p
+{
+  font-size:10em;
+  color:black;
+}
+p
+{
+  margin:0;
+  font-size:3em;
+}
+#ampm{
+  font-size: 2em;
+  padding-top: 150px;
+}
+#datehere
+{
+  color:rgb(80, 80, 83);
+  margin-top:100px;
+}

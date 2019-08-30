@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Form Validation</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <script src="js/script.js"></script>
+    <script type="text/javascript">
+        window.onload = function (e) {
+            document.getElementById("filled-data").style.display = "block";
+            document.getElementById("first-name-filled").innerHTML = localStorage.getItem("FirstName");
+            document.getElementById("last-name-filled").innerHTML = localStorage.getItem("LastName");
+            document.getElementById("phone-number-filled").innerHTML = localStorage.getItem("PhoneNumber");
+            document.getElementById("city-filled").innerHTML = localStorage.getItem("CityName");
+            document.getElementById("postal-filled").innerHTML = localStorage.getItem("PinNumber");
+
+        }
+    </script>
+</head>
+
+<body> 
+    <div class="filled" id="filled-data">
+        <div id="email-id-filled"></div>
+        <div id="first-name-filled"></div>
+        <div id="last-name-filled"></div>
+        <div id="gender-filled"></div>
+        <div id="phone-number-filled"></div>
+        <div id="street-filled"></div>
+        <div id="city-filled"></div>
+        <div id="state-filled"></div>
+        <div id="postal-filled"></div>
+    </div>
+</body>
+</html>

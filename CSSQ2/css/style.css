@@ -1,0 +1,402 @@
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    padding: 20px 10px;
+    font-size: 12px;
+    margin: 0px;
+    color: black
+}
+
+ul {
+    float: right;
+    padding: 30px;
+    margin: 0px;
+}
+
+ul.features{
+    float:left;
+    padding:0px;
+}
+
+li {
+    display: inline;
+    font-size: 12px;
+    color: black;
+    padding: 0px;
+}
+
+li.arrange{
+    padding-top: 20px;
+    display: inherit;
+    color: rgb(145, 153, 165);
+    width: 178px;
+}
+
+h1{
+    padding-top: 20px;
+    font-weight: bolder;
+    padding-left: 100px;
+    font-size: 40px;
+}
+
+h3{
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+}
+
+h4{
+    font-weight: unset;
+}
+
+p{
+    padding-top: 200px;
+    padding-left: 100px;
+    font-size: 12px;
+    padding-bottom: 0px;
+}
+
+a.search-job{
+    font-size: 11px;
+    text-decoration: none;
+    color: #6c63ff;
+    font-weight: bold;
+    padding: 10px;
+    padding-left: 15px;
+}
+
+p.search-bar{
+    font-size: 12px;
+    color:rgb(145, 153, 165);
+    padding-top: 20px;
+    padding-left: 15px;
+    padding-right: 13px;
+    line-height: 20px;
+}
+
+p.container5-text{
+    font-size: 12px;
+    color:rgb(145, 153, 165);
+    padding: 0px;
+    line-height: 20px;
+    padding-top: 20px;
+    width: 75%;
+}
+
+p.footer{
+    color: rgb(145, 153, 165);
+    text-align: center;
+    padding: inherit;
+}
+
+.grid-heading-text{
+    padding-top: 0px;
+    padding-left: 0px;
+    font-size: 12px;
+}
+
+.grid-text{
+    padding-top: 0px;
+    padding-left: 0px;
+    font-size: 10px;
+    color: rgb(145, 153, 165);
+    padding-top: 5px;
+}
+
+.grid-span{
+    color: red;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+img{
+    padding: 0px;
+    width: 29%;
+}
+
+img.social{
+    padding: 0px;
+    width: 80%;
+}
+
+hr.color{
+    border: 0.5px solid sandybrown;
+    border-radius: 3px;
+}
+
+li a:hover{
+    color: blue;
+}
+
+a:hover{
+    color: rgb(223, 84, 84);
+}
+.container2-text{
+    font-size: 11px;
+    padding-top: 25px;
+    padding-left: 0px;
+    opacity: 0.5;
+    line-height: 20px;
+    width: 162px;
+}
+
+.container3-row1-text{
+    font-size: 12px;
+    padding-top: 60px;
+    padding-left: 0px;
+    opacity: 0.3;
+    text-align: center;
+    
+}
+
+.text {
+    color: black;
+    font-weight: bolder;
+    font-size: 14px;
+    padding-right: 214px;
+    padding-left: 0px;
+    
+}
+
+.container-row1 {
+    background-color: #ffff;
+}
+
+.container-row2 {
+    background-color: #6c63ff;
+    padding: 20%;
+    padding-top: 6%;
+    padding-bottom: 6%;
+}
+
+.container-row3 {
+    background-color: #ffff;
+}
+
+.container-row4 {
+    background-image: url("../image/bg/bannerbg.jpg");
+    background-repeat: no-repeat;
+    padding: 10%;
+    background-size: 100% 100%;
+}
+
+.container-row5 {
+    background-color: black;
+}
+
+.sub-container1-row1 {
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+.sub-container1-row2{
+    max-width: 70%;
+    margin: 0 auto;
+    background-image: url("../image/bg/hero-image.jpg");
+    background-repeat: no-repeat;
+    background-position:right;
+    background-size:480px 90%;
+}
+
+.sub-container1-row3{
+    max-width: 60%;
+    margin-left: 100px;
+    margin-right: 250px;
+}
+
+.sub-container2-row1{
+    
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sub-container2-row1 > div{
+    background-color: #6c63ff;
+    margin: 0 auto;
+    text-align: left;
+    color: white;
+    line-height: 15px;
+}
+
+.sub-container3-row1{
+    max-width: 55%;
+   margin: 0 auto;
+    padding: 20px;
+}
+
+.sub-container3-row2{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 50%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+    flex-basis: 40%;
+}
+
+.sub-container3-row2 > div{
+   
+    text-align: left;
+    line-height: 15px;
+    padding: 20px;
+}
+
+.sub-container4-row1{
+    max-width: 29%;
+    background-color: white;
+    background-image: url("../image/bg/lens.jpg");
+    background-repeat: no-repeat;
+    background-position:left top;
+    margin-left: 250px;
+    position: relative;
+    background-size:28% 50%;
+    background-position-y: 20px;
+    background-position-x: 5px;
+    border-radius: 6px;
+    padding-top: 40px;
+    padding-left: 25px;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .sub-container4-row1{
+      min-width: fit-content;
+      margin: 0 auto;
+      padding-bottom: 15px;
+    }
+
+    .sub-container5-row1{
+        flex-direction: row;
+        min-width: fit-content;
+        padding-bottom: 20px;
+    }
+
+    h1{
+        padding: 0;
+        min-width: max-content;
+    }
+
+    p{
+        padding: 0px;
+        padding-top: 50%;
+    }
+
+    .sub-container1-row2{
+        background-color: white;
+        background-position-x: 280px;
+    }
+}
+
+.sub-container5-row1{
+    margin: 0 auto;
+    padding: 82px;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 70%;
+
+}
+
+.sub-container5-row1 > div{
+    text-align: left;
+    color: white;
+    line-height: 15px;
+    width: 200px;
+    padding-bottom: 30px;
+}
+
+.sub-contianer5-row2{
+    padding: 10px;
+}
+.button {
+    color: white;
+    font-size: 12px;
+    border: none;
+    display: inline-block;
+    padding: 8px 15px;
+    text-align: center;
+    border-radius: 6px;
+}
+
+.tabs {
+    position: relative;
+    min-height: 110px;
+    max-width: 82%;
+    clear: both;
+    margin: 25px 0;
+}
+
+.tab {
+    float: left;
+}
+
+.tab label {
+    background-color: white;
+    padding: 10px;
+    position: relative;
+   
+}
+
+.tab [type=radio] {
+    display: none;
+}
+
+.content {
+    position: absolute;
+    top: 28px;
+    left: 0;
+    background: #6c63ff;
+    color: black;
+    right: 0;
+    bottom: 0;
+    padding: 18px;
+    border-radius: 6px;
+
+}
+
+[type=radio]:checked~label {
+    background: #6c63ff;
+    color: white;
+    border-radius: 6px;
+    padding: 17px;
+    z-index: 2;
+}
+
+[type=radio]:checked~label~.content {
+    z-index: 1;
+}
+
+button.tab-button{
+    color: black;
+    font-size: 10px;
+    border: none;
+    display: inline-block;
+    padding: 0px;
+    text-align: center;
+    border-radius: 6px;
+    background-color: white;
+    height: 80%;
+    width: 80px;
+    margin: 7px;
+}
+
+li.tab-data {
+    display: inline;
+    padding: 10px;
+}
+
+label{
+    font-size: 12px;
+}
+
+button.tab-button:hover{
+    background-color: tomato;
+}
+

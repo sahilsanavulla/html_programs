@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>form-validation</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/script.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="form-container">
+            <form onsubmit="return validate()" action="form-result.html">
+
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col-5 col-sm-5 col-md-3 col-lg-3">
+                            <h5>E-mail&nbsp;<span><sup><i class="fa fa-asterisk asterik-style"></i></sup></span></h5>
+                        </div>
+
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                            <div class="row">
+                                <input type="text" type="email" name="email" id="txtEmail"
+                                    placeholder="ex: myname@example.com" class="form-control">
+                            </div>
+
+                            <div class="row">
+                                <p>example@example.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col-4 col-sm-4 col-md-3 col-lg-3">
+                            <h5>Name&nbsp;<span><sup><i class="fa fa-asterisk asterik-style"></i></sup></span></h5>
+                        </div>
+
+                        <div class="col-9 col-sm-9 col-md-9 col-lg-9">
+                            <div class="row">
+                                <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+                                    <div class="row">
+                                        <input type="text" name="FirstName" id="txtFirstName" class="form-control mr-2">
+                                    </div>
+                                    <div class="row">
+                                        <p>First Name</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-4 col-lg-4 pr-0">
+                                    <div class="row">
+                                        <input type="text" name="LastName" id="txtLastName" class="form-control mr-3">
+                                    </div>
+                                    <div class="row">
+                                        <p>Last Name</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col-4 col-sm-4 col-md-3 col-lg-3">
+                            <h5>Gender</h5>
+                        </div>
+                        <div class="col-9 col-sm-9 col-md-9 col-lg-9">
+                            <div class="form-check-inline mr-5">
+                                <label class="form-check-label" for="radio1">
+                                    <input type="radio" id="rbGenderMale" class="form-check-input mr-2" name="Gender"
+                                        value="1" checked>Male
+                                </label>
+                            </div>
+                            <div class="form-check-inline">
+                                <label class="form-check-label" for="radio2">
+                                    <input type="radio" id="rbGenderFemale" class="form-check-input mr-2" name="Gender"
+                                        value="2">Female
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col-8 col-sm-8 col-md-3 col-lg-3">
+                            <h5>Phone Number&nbsp;<span><sup><i class="fa fa-asterisk asterik-style"></i></sup></span>
+                            </h5>
+                        </div>
+                        <div class="col-9 col-sm-9 col-md-9 col-lg-9">
+                            <div class="row">
+                                <div class="col-5 col-sm-5 col-md-2 col-lg-2">
+                                    <div class="row">
+                                        <input type="tel" name="AreaCode" id="telAreaCode" class="form-control mr-1">
+                                    </div>
+                                    <div class="row">
+                                        <p>Area Code</p>
+                                    </div>
+                                </div>
+                                <p>-</p>
+                                <div class="col-6 col-sm-6 col-md-3 col-lg-3 pr-0">
+                                    <div class="row">
+                                        <input type="tel" name="Phone Number" id="telPhoneNumber"
+                                            class="form-control ml-1">
+                                    </div>
+                                    <div class="row">
+                                        <p>Phone Number</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col-4 col-sm-4 col-md-3 col-lg-3">
+                            <h5>Address</h5>
+                        </div>
+                        <div class="col-9 col-sm-9 col-md-9 col-lg-9">
+                            <div class="row">
+                                <input type="text" name="StreetAddress" id="txtStreetAddress" class="form-control">
+                            </div>
+                            <div class="row">
+                                <p>Street Address</p>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-8 col-sm-8 col-md-6 col-lg-6">
+                                    <div class="row">
+                                        <input type="text" name="City" id="txtCity" class="form-control mr-3">
+                                    </div>
+                                    <div class="row">
+                                        <p>City</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-8 col-sm-8 col-md-6 col-lg-6">
+                                    <div class="row">
+                                        <input type="text" name="State/Province" id="txtState" class="form-control">
+                                    </div>
+                                    <div class="row">
+                                        <p>State/Province</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-8 col-sm-8 col-md-5 col-lg-5 pl-0">
+                                    <input type="text" name="Postal/Zip code" id="telPostalCode" class="form-control">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <p>Postal/Zip code</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div>
+                        <input type="checkbox" name="checkbox" id="optCheckBox"><label>I agree the terms
+                            and
+                            conditions</label>
+                    </div>
+                    <div class="btn btn-character btn-lg pr-0">
+                        <button type="submit" name="sub">Submit</button>
+
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="filled" id="filled-data">
+        <div id="email-id-filled"></div>
+        <div id="first-name-filled"></div>
+        <div id="last-name-filled"></div>
+        <div id="gender-filled"></div>
+        <div id="phone-number-filled"></div>
+        <div id="street-filled"></div>
+        <div id="city-filled"></div>
+        <div id="state-filled"></div>
+        <div id="postal-filled"></div>
+    </div>
+
+</body>
+
+</html>

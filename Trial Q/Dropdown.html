@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Practise_Question-3</title>
+    <style>
+        ul {
+            list-style-type: none;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 12px;
+            margin: 0;
+            padding: 20px;
+            overflow: hidden;
+            background-color: #003470;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a,
+        .dropbtn {
+            display: inline-block;
+            color: #ffffff;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover,
+        .dropdown:hover .dropbtn {
+            background-color: #0060ff;
+            ;
+        }
+
+        li.dropdown {
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #0060ff;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+
+        .dropdown-content .sub-dropdown-content a {
+            color: #ffffff;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+        }
+
+        .dropdown-content .sub-dropdown-content a:hover {
+            background-color: #003470;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .sub-dropdown-content {
+            display: none;
+            position: relative;
+            top: 20px;
+            left: 20px;
+            background-color: #0060ff;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+    </style>
+</head>
+
+<body>
+
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li class="dropdown">
+            <a class="dropbtn">About</a>
+            <div class="dropdown-content">
+                <a href="#">Submenu Level 1</a>
+                <a href="#">Submenu Level 1</a>
+                <ul>
+                    <li class="sub-dropdown-content">
+                        <a href="#">Submenu Level 2</a>
+                        <a href="#">Submenu Level 2</a>
+                        <a href="#">Submenu Level 2</a>
+                    </li>
+                </ul>
+                <a href="#">Submenu Level 1</a>
+            </div>
+        </li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+
+</body>
+
+</html>

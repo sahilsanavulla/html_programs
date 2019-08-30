@@ -1,0 +1,27 @@
+.inner-container{
+    padding-top:10%;
+    width:80%;
+    margin:0 auto;
+}
+.asterik-style{
+    font-size:8px;
+    color:red;
+}
+.phone-number{
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+.btn-character{
+
+    float: right;
+}
+
+.checkbox-property
+{
+    margin-right: 10px;
+    padding-top: 10px;
+}
+
+.filled{
+    display: none;
+}

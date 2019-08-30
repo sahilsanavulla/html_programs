@@ -1,0 +1,231 @@
+.First-Row {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.button-style{
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+.Second-Row{
+    background-image: url("../image/bg/hero-image.jpg");
+    background-repeat: no-repeat;
+    background-position:right;
+    background-size: contain;
+    height: 500px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.second-container{
+    background-color: #6c63ff;
+    color: white;
+}
+
+.row-second-container{
+    margin: 0 auto;
+    width: 80%;
+    padding: 45px;
+}
+
+.row-second-container-text{
+    font-size: 11px;
+    padding-top: 25px;
+    padding-left: 0px;
+    opacity: 0.5;
+    line-height: 20px;
+    width: 162px;
+}
+
+hr.border-colour{
+    border: 0.5px solid sandybrown;
+    border-radius: 3px;
+}
+
+.sub-container-text-title{
+    padding-top: 0px;
+    padding-left: 0px;
+    font-size: 12px;
+}
+
+.sub-container-text{
+    padding-top: 0px;
+    padding-left: 0px;
+    font-size: 10px;
+    color: rgb(145, 153, 165);
+    padding-top: 5px;
+}
+
+.span-colour{
+    color: red;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.sub-container-row-text{
+    font-size: 12px;
+    padding-left: 0px;
+    opacity: 0.3;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.first-row-third-container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.fourth-container{
+    background-image: url("../image/bg/bannerbg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 430px;
+    margin: 0 auto;
+}
+
+.fourth-container-sub-row{
+   
+    background-color: white;
+    background-image: url("../image/bg/lens.jpg");
+    background-repeat: no-repeat;
+    background-position:left top;
+    position: relative;
+    background-size:28% 50%;
+    background-position-y: 20px;
+    background-position-x: 5px;
+    border-radius: 5px;
+    padding: 40px 25px 25px 25px;
+    top: 60px;
+    width: 108%;
+}
+
+a.search-job{
+    font-size: 11px;
+    text-decoration: none;
+    color: #6c63ff;
+    font-weight: bold;
+    padding: 10px;
+    padding-left: 15px;
+}
+
+p.search-bar{
+    font-size: 12px;
+    color:rgb(145, 153, 165);
+    padding-top: 20px;
+    padding-left: 15px;
+    padding-right: 13px;
+    line-height: 20px;
+}
+
+.search-job-container{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.fifth-container{
+    background-color: black;
+    color: white;
+    padding: 100px 0px 100px;
+}
+
+ul.features{
+    
+    padding:0px;
+    padding-bottom: 15px;
+}
+
+li.arrange{
+    padding-top: 20px;
+    display: inherit;
+    color: rgba(255, 255, 255, 0.7);
+    width: 178px;
+    font-size: 12px;
+}
+
+.fifth-container-sub-row{
+    margin: 0 auto;
+    width: 70%;
+}
+
+p.footer-container-text{
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.7);
+    padding: 0px;
+    line-height: 20px;
+    padding-top: 20px;
+    width: 100%;
+}
+
+h4{
+    font-weight: bold;
+    font-size: 15px;
+    padding-top: 30px;
+}
+
+p.footer-feature{
+    color:rgba(255, 255, 255, 0.7);
+    text-align: center;
+    padding: 65px 0px 0px;
+    font-size: 12px;
+}
+
+.social-icons{
+    padding: 10px 15px 10px 15px;
+    display: inline;
+    font-size: 12px; 
+    background-color: #0D0D0D;
+    border-radius: 25px;
+}
+
+.input-Tab{
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 4px;
+    width: 90px;
+    padding: 2.5%;
+    font-size: 0.8Rem;
+    border: none;
+    margin-bottom: 5px;
+}
+
+.input-Tab2{
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 4px;
+    width: 74px;
+    padding: 2.6%;
+    font-size: 0.8Rem;
+    border: none;
+    margin-bottom: 5px;
+}
+
+.Search-Button{
+    background-color: rgb(255, 94, 0);
+    padding: 0.200rem 0.75rem;
+    border: none;
+}
+
+.Tab-colour{
+    background-color: #6d63ff;
+    padding: 1% 2% 1%;
+    border-radius: 4px;
+    width: 40%;
+    float: left;
+    line-height: 0.5;
+}
+
+.Tabs{
+    margin: 0;
+    padding: 0;
+}
+
+#menubar .active{
+    background-color: #6d63ff;
+    color: white;
+    border-color: #6d63ff;
+}
+
+.nav-tabs-edited{
+    border: 0px;
+}
+
+    

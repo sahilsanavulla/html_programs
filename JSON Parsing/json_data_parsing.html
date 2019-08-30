@@ -1,0 +1,69 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <table id="myTable" class="table table-striped"> 
+            <tr>
+                <th colspan="2" style="text-align:center">Json Data</th>
+            </tr>
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+            </tr> 
+        <tbody></tbody>
+    </table>
+
+</body>
+
+<script>
+    debugger;
+    var employeeList = [];
+    var objEmployee = {};
+
+    objEmployee.FirstName = "Employee Name1";
+    objEmployee.LastName = "Last Name1";
+    objEmployee.Gender = "Male";
+
+    employeeList.push(objEmployee);
+
+    objEmployee = {};
+    objEmployee.FirstName = "Employee Name2";
+    objEmployee.LastName = "Last Name2";
+    objEmployee.Gender = "Male";
+
+    employeeList.push(objEmployee);
+
+    if (employeeList.length > 0) {
+        localStorage.setItem("EmployeeList", JSON.stringify(employeeList));
+
+        employeeList.forEach(myFunction);
+
+        function myFunction(item, index) {
+            var result = '<tr><td>' + item.FirstName + '</td><td>' + item.LastName + '</td></tr>';
+            var table = document.getElementById("myTable");
+            var table_len = (table.rows.length);
+            var row = table.insertRow(table_len).outerHTML = result;
+        }
+
+        var employeeList1 = JSON.parse(localStorage.getItem("EmployeeList"));
+
+        employeeList1.forEach(myFunction);
+
+        function myFunction(item, index) {
+            var result = '<tr><td>' + item.FirstName + '</td><td>' + item.LastName + '</td></tr>';
+            var table = document.getElementById("myTable");
+            var table_len = (table.rows.length);
+            var row = table.insertRow(table_len).outerHTML = result;
+        }
+    }
+
+</script>
+</html>

@@ -1,0 +1,26 @@
+<html>
+  <head>
+    <title>digital-clock</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="js/script.js"></script>
+  </head>
+  <body id="layout">
+    <h1><strong>Digital Clock</strong></h1>
+    <hr>
+    <p id="datehere"></p>
+    <div class="timesection mb-5 row">
+      <div class="col-sm-2 offset-2"><p  id="hour"></p></div>
+      <div class="col-sm-1"><p  id="colon1"></p></div>
+      <div class="col-sm-2"><p  id="minutes"></p></div>
+      <div class="col-sm-1"><p  id="colon2"></p></div>
+      <div class="col-sm-2"><p  id="seconds"></p></div>
+      <div class="col-sm-1"><p  id="ampm"></p></div>
+    </div>
+    <p id="clocktime"></p>
+    <button type="button" class="btn btn-primary mr-5" id="timeshow" onclick="updateTime()">Show Clock</button>
+    <button type="button" class="btn btn-success mr-5" id="timestart">Start clock</button>
+    <button type="button" class="btn btn-danger" id="timestop">Stop clock</button>
+  </body>
+</html>

@@ -1,0 +1,137 @@
+.container{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+      float: right;
+      background-color: white;
+    }
+    .row{
+      margin-bottom: 5%;
+    }
+    .header1{
+      padding-left: 5%;
+      padding-top:1.5%;
+    }
+
+    .SecondRow {
+      background-size: 60% 100%;
+      background-image: url("../bg/officeman.jpg");
+      background-repeat: no-repeat;
+      min-height: 400px;
+      background-position: right;
+      padding-left: 5%;
+    }
+
+    .ThirdRow {
+      background-color: #6d63ff;
+      min-height: 300px;
+      padding: 4%;
+      color: white;
+    }
+    .FourthRow1 {
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    .SecondRow-col1 {
+      padding: 0;
+      padding-top: 5%;
+    }
+    .col{
+      margin-bottom: 2%;
+    }
+
+    .h1 {
+      font-size: 60%;
+    }
+    li{
+      font-size: 20px;
+    }
+
+    .btnOrange {
+      background-color: rgb(255, 94, 0);
+      border-color: rgb(255, 94, 0);
+      border-radius: 4px;
+    }
+
+    .btnBlue {
+      background-color: #6d63ff;
+      border-color: #6d63ff;
+      border-radius: 4px;
+    }
+    .text-color{
+    color: orangered;
+    }
+    p{
+      font-size: 18px;
+    }
+    h6{
+        text-align: left;
+        color: rgb(209, 202, 202);
+    }
+    hr{
+    border:0.7px solid rgb(255, 99, 43);
+    width: 200px;
+    float: left;
+    }
+    .FourthRow2{
+      padding: 2.5%;
+    }
+    .Job-Categories{
+      background-color: white;
+      padding: 2%;
+    }
+    .Light-Para{
+    font-size: 15px;
+    line-height: 4px;
+    color: rgb(160, 158, 158);
+    font-weight: lighter;
+    }
+    h5{
+    color: rgb(163, 54, 252);
+    font-size: 20px;
+    font-weight: bold;
+    margin-block-end: 5%;
+    margin-block-start: 5%;
+    }
+    .Fifth-Segment{
+        background-image: url("../bg/banner.jpg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        margin-bottom: 0%;
+        padding: 1.5%;
+    }
+    .Sixth-Segment{
+        background-color: black;
+        color: white;
+    }
+    .Search-Job{
+    margin-top: 5%;
+    margin-left: 2%;
+    margin-bottom: 3%;
+    border-radius: 5px;
+    padding-top: 1%;
+    padding-left: 3%;
+    padding-bottom: 3%;
+    padding-right: 1%;
+    background-color: white;
+    background-image: url("../bg/lens.jpg");
+    background-repeat: no-repeat;
+    }
+    .Details{
+    font-size: 14px;
+    color: white;
+    padding: 2.5%;
+    }
+    .About-para{
+        font-weight: unset;
+        line-height: normal;
+    }
+    .footer{
+      text-align: center;
+      margin: 0 auto;
+      padding: 2%;
+      background-color: black;
+      color: white;
+    }
